@@ -4,7 +4,7 @@ function Button({ children, onClick, type }) {
     <button
       onClick={onClick}
       className={` ${styles.btn} ${styles[type]}`}
-      type="button"
+      type="type"
     >
       {children}
     </button>
